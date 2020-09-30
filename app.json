@@ -1,3 +1,4 @@
+ 
 {
   "name": "TG Rename Bot",
   "description": "Telegram's best Open Source Rename Bot. Create your Fork now.",
@@ -11,7 +12,6 @@
   "success_url": "https://telegram.dog/AnyDLBot",
   "website": "https://github.com/SpEcHiDe/AnyDLBot",
   "repository": "https://github.com/erichdanikeninfo/TG-Rename-Bot",
-  "logo": "https://telegra.ph/file/681227bece69de877e442.jpg",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -19,27 +19,23 @@
     },
     "TG_BOT_TOKEN": {
       "description": "Your bot token, as a string.",
-      "value": ""
-    },
-    "USER_NAME": {
-      "description": "Your user name like @Ns_AnoNymouS",
-      "value": "@Ns_AnoNymouS"
+      "value": "1332345134:AAEKIVgCSnAyexvDAD9KnKwn7ge64e-TVdg"
     },
     "CHAT_BASE_TOKEN": {
       "description": "Your chat base token, as a string.",
-      "value": ""
+      "value": "1b1e08fb-9ad2-4e68-ac9c-0af63f8b49b4"
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "1711975"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "9ab7ed44b7d16606a704354a77d06db2"
     },
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot",
-      "value": "1337144652"
+      "value": "7351948 466337795 1304289432"
     },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
