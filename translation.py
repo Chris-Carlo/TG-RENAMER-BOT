@@ -5,7 +5,7 @@ class Translation(object):
 
 I'm A Simple File Renamer ✍ + File To Video Converter Bot With Custom Thumbnail Support! (Tumnai is valid only for 24 hrs)💯   \n\n<b>Bot Created By:</b> <a href='https://t.me/Chris_Carlo'>CHRIS CARLO 👨‍🎤</a> 
 
-Press HELP button which is available at the bottom to know how to use me."""
+Press HELP ❓ button which is available at the bottom to know how to use me."""
     
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
