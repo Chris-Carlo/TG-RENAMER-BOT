@@ -47,12 +47,12 @@ async def cb_handler(bot, update):
                 reply_markup=InlineKeyboardMarkup(
                   [
                       [
-                      InlineKeyboardButton('📫FEEDBACK', url='https://t.me/Chris_Carlo'),
-                      InlineKeyboardButton('📍ABOUT ME', callback_data='about')
+                      InlineKeyboardButton('📫 FEEDBACK', url='https://t.me/Chris_Carlo'),
+                      InlineKeyboardButton('📍 ABOUT ME', callback_data='About')
                       ],
                       [
-                      InlineKeyboardButton('HOW TO USE ?🤔', callback_data="help"),
-                      InlineKeyboardButton('CLOSE❓🔐', callback_data="close")
+                      InlineKeyboardButton('HELP ❓', callback_data="help"),
+                      InlineKeyboardButton('CLOSE 🔐', callback_data="close")
                       ]
                     ]
                   )
@@ -91,12 +91,12 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
         [
           [
-          InlineKeyboardButton('📫FEEDBACK', url='https://t.me/Chris_Carlo'),
-          InlineKeyboardButton('📍ABOUT ME', callback_data='about')
+          InlineKeyboardButton('📫 FEEDBACK', url='https://t.me/Chris_Carlo'),
+          InlineKeyboardButton('📍 ABOUT ME', callback_data='About')
           ],
           [
-          InlineKeyboardButton('HOW TO USE?🤔', callback_data="help"),
-          InlineKeyboardButton('CLOSE ❓🔐', callback_data="close")
+          InlineKeyboardButton('HELP ❓', callback_data="help"),
+          InlineKeyboardButton('CLOSE 🔐', callback_data="close")
           ]
         ]
       )
@@ -243,7 +243,7 @@ async def about(bot, update):
         reply_markup=InlineKeyboardMarkup(
         [
           [
-          InlineKeyboardButton('HOW TO USE? 🤔', callback_data="help"),
+          InlineKeyboardButton('HELP ❓', callback_data="help"),
           InlineKeyboardButton('CLOSE 🔐', callback_data="close")
           ]
         ]
